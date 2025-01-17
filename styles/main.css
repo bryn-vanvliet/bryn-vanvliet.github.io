@@ -43,10 +43,12 @@ h1 {
   font-family: recoleta;
   padding-left: 31px;
   padding-top: 40px;
-}
-a {
   font-size: 1.2em;
 }
+#header-links a:hover {
+  color: white;
+}
+
 .container-two {
   background-color: #ffe6a9;
   padding-top: 1px;

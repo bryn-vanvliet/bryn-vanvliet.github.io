@@ -66,6 +66,11 @@ p {
   padding-left: 30px;
   font-size: 1.75em;
 }
+li {
+  font-size: 1.5em;
+  padding: 30px;
+  font-family: recoleta;
+}
 .container-three {
   background-color: #b1c29e;
   padding-top: 2px;

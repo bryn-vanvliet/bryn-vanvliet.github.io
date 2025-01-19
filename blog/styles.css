@@ -51,8 +51,45 @@ a {
   background-color: #b3c8cf;
   padding-top: 1px;
   width: 100%;
-  height: 700px;
+  height: auto;
 }
 h2 {
   padding-left: 30px;
+}
+.blog {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.positions {
+  width: 250px;
+  height: 250px;
+  background-color: #e5e1da;
+  padding-left: 30px;
+  justify-content: start;
+  border-radius: 50%;
+}
+
+.positions-title {
+  text-align: center;
+  color: blue;
+  font-family: recoleta;
+  padding-top: 50px;
+  padding-right: 60px;
+}
+.te-houtaeawa {
+  width: 250px;
+  height: 250px;
+  background-color: #e5e1da;
+  padding-left: 30px;
+  justify-content: start;
+  border-radius: 50%;
+}
+
+.te-houtaeawa-title {
+  text-align: center;
+  color: blue;
+  font-family: recoleta;
+  padding-top: 50px;
+  padding-right: 60px;
 }

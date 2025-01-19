@@ -56,10 +56,10 @@ a {
 h2 {
   padding-left: 30px;
 }
-.blog {
+.blogs {
   width: 100%;
   height: auto;
-  display: inline-block;
+  display: flex;
 }
 .positions {
   width: 250px;

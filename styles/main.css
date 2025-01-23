@@ -74,6 +74,7 @@ p {
 }
 .habits-title {
   text-decoration: underline;
+  font-style: italic;
 }
 
 li {

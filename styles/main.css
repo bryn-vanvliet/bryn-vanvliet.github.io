@@ -21,7 +21,7 @@
   text-align: center;
   padding-top: 8px;
   font-size: 1.75em;
-  font-family: recoleta;
+  font-family: domine;
   text-decoration: underline;
 }
 h1 {
@@ -40,7 +40,7 @@ h1 {
   margin-left: auto;
 }
 #header-links a {
-  font-family: recoleta;
+  font-family: domine;
   padding-left: 31px;
   padding-top: 40px;
   font-size: 1.2em;
@@ -56,7 +56,7 @@ h1 {
   height: auto;
 }
 h2 {
-  font-family: recoleta;
+  font-family: domine;
   font-size: 2em;
   text-decoration: underline;
   padding-left: 30px;
@@ -64,7 +64,7 @@ h2 {
   font-weight: bold;
 }
 p {
-  font-family: recoleta;
+  font-family: domine;
   padding-left: 30px;
   font-size: 1.75em;
 }
@@ -80,7 +80,7 @@ p {
 li {
   font-size: 1.5em;
   padding: 30px;
-  font-family: recoleta;
+  font-family: domine;
 }
 .blogs {
   display: flex;

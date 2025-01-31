@@ -84,19 +84,16 @@ li {
 }
 .blogs {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
   background-color: #ffe6a9;
-  height: 250px;
 }
 .blog-links {
-  border-radius: 50%;
+  border-radius: 10px;
   background-color: #d7d3bf;
-  margin-left: 0;
-  width: 500px;
-  height: auto;
+  width: 300px;
+  padding: 20px;
   text-align: center;
-  padding-top: 20px;
-  padding-right: 10px;
 }
 
 table {

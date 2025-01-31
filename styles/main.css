@@ -99,6 +99,25 @@ li {
   padding-right: 10px;
 }
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+table tr td,
+table tr th {
+  border: 1px solid black;
+  margin: 0;
+  padding: 6px 13px;
+  text-align: left;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
 .container-three {
   background-color: #b1c29e;
   padding-top: 2px;

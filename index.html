@@ -1,74 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="/styles/main.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="/styles/main.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap"
       rel="stylesheet"
     />
-    <title>Bryn's coding journey</title>
+    <title>Bryn's Coding Journey</title>
   </head>
   <body>
+    <!-- Header Section -->
     <div class="container-one">
       <div class="seal">
         <img
           src="https://sounz-assets-production.s3.ap-southeast-2.amazonaws.com/contributor/profile_image/221/small_Bryn_van_Vliet_copy.jpg"
           alt="Bryn head shot"
-          width="150"
-          height="133"
         />
       </div>
-      <div class="header" id="header-title">
+      <div id="header-title">
         <h1>Bryn van Vliet - Portfolio</h1>
       </div>
-      <div class="header" id="header-links">
-        <a href="">HOME</a>
+      <div id="header-links">
+        <a href="/Bryn-cv.pdf" download>Download My CV</a>
       </div>
     </div>
+
+    <!-- About Section -->
     <div class="container-two">
-      <h2>About</h2>
-      <p>
-        This blog is a space for all my learnings at Dev Academy. Below are the
-        links to the projects and blogs we’ve created during the course.
-      </p>
-    
-      <h2>Projects</h2>
-    
-      <div class="project">
-        <h3>Motivating Mike</h3>
+      <section>
+        <h2>About</h2>
         <p>
-          Your new favourite todo-list app that helps you manage your tasks—one item at a time!  
+          This blog is a space for all my learnings at Dev Academy. Below are
+          the links to the projects and blogs we’ve created during the course.
+          
         </p>
-        <a href="https://motivating-mike.devacademy.nz/" target="_blank">View Project</a>
-      </div>
-    
-      <div class="project">
-        <h3>DukeBox</h3>
-        <p>
-          Work in progress – an online jukebox app where users can play and queue songs collaboratively.
-        </p>
-        <a href="http://bryn-tohora25-my-fullstack.devacademy.nz/" target="_blank">View Project</a>
-      </div>
-    
-      <div class="project">
-        <h3>Duck Duck... Cat!</h3>
-        <p>
-          An online version of the classic kids’ game—this time with cats instead of ducks!
-        </p>
-        <a href="https://duck-duck-cat-tohora-2025.devacademy.nz/" target="_blank">Play Now</a>
-      </div>
-    
-      <div class="project">
-        <h3>E-Query-Ins</h3>
-        <p>
-          A simple querying tool built during our full-stack learning module (description coming soon).
-        </p>
-        <a href="http://tohora-2025-e-qurey-ins.devacademy.nz/" target="_blank">View Project</a>
-      </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section>
+        <h2>Projects</h2>
+
+        <div class="project-card">
+          <h3>Motivating Mike</h3>
+          <p>
+            This todo-list app helps you manage your items more efficiently by
+            serving you one at a time while being encouraged by fun characters.
+            I served as Product Owner and worked on styling with Chakra UI,
+            database functions, and routes. 
+            *This project hasn't been deployed properly yet.
+          </p>
+          <h4>Tools:</h4>
+          <p>
+            React, Express, SQLite, Knex, Superagent, Tanstack React Query,
+            TypeScript, Chakra UI, JavaScript
+          </p>
+          <a href="http://motivating-mike.devacademy.nz/" target="_blank"
+            >View Project</a
+          >
+        </div>
+
+        <div class="project-card">
+          <h3>DukeBox</h3>
+          <p>
+            Work in progress – an online jukebox app where users can play and
+            queue songs collaboratively.
+          </p>
+          <h4>Tools:</h4>
+          <p>
+            React, Express, SQLite, Knex, Superagent, Tanstack React Query,
+            TypeScript, Chakra UI, JavaScript
+          </p>
+          <a
+            href="http://bryn-tohora25-my-fullstack.devacademy.nz/"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+
+        <div class="project-card">
+          <h3>Duck Duck... Cat!</h3>
+          <p>
+            An online version of the classic kids’ game—this time with cats
+            instead of ducks! I worked on front-end and linking routes together.
+          </p>
+          <h4>Tools:</h4>
+          <p>
+            React, Express, Knex, Superagent, Tanstack React Query, External
+            API, TypeScript, JavaScript
+          </p>
+          <a
+            href="https://duck-duck-cat-tohora-2025.devacademy.nz/"
+            target="_blank"
+            >Play Now</a
+          >
+        </div>
+
+        <div class="project-card">
+          <h3>E-Query-Ins</h3>
+          <p>
+            A "who will win" battle style game between marine mammals. I
+            provided basic coding input and ensured our team's morale was
+            maintained.
+          </p>
+          <h4>Tools:</h4>
+          <p>
+            React, Express, Knex, Superagent, Tanstack React Query, TypeScript,
+            JavaScript, CSS
+          </p>
+          <a
+            href="http://tohora-2025-e-qurey-ins.devacademy.nz/"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+      </section>
     </div>
   </body>
 </html>

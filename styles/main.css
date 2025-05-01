@@ -1,166 +1,124 @@
 .container-one {
   background-color: #deaa79;
-  padding-top: 1px;
   width: 100%;
-  height: 180px;
+  height: auto;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
 }
+
 .seal {
-  width: 380px;
+  flex: 1 1 150px;
 }
 .seal img {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  padding-left: 10px;
-  padding-top: 15px;
   object-fit: cover;
+  margin: 0.5rem;
 }
+
 #header-title {
-  width: 100%;
+  flex: 2 1 auto;
   text-align: center;
-  padding-top: 8px;
   font-size: 1.75em;
-  font-family: domine;
+  font-family: 'Domine', serif;
   text-decoration: underline;
+  padding: 0.5rem;
 }
-h1 {
-  display: block;
+
+#header-title h1 {
+  margin: 0;
   font-size: 2em;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   font-weight: bold;
-  unicode-bidi: isolate;
 }
+
 #header-links {
-  width: 380px;
-  padding-top: 145px;
-  margin-left: auto;
+  flex: 1 1 150px;
+  text-align: right;
+  padding: 1rem;
 }
 #header-links a {
-  font-family: domine;
-  padding-left: 31px;
-  padding-top: 40px;
+  font-family: 'Domine', serif;
   font-size: 1.2em;
+  text-decoration: none;
+  margin-left: 1rem;
+  color: #000;
 }
 #header-links a:hover {
   color: white;
 }
 
+/* Main content container */
 .container-two {
   background-color: #ffe6a9;
-  padding-top: 1px;
   width: 100%;
-  height: auto;
+  padding: 2rem;
+  box-sizing: border-box;
 }
-h2 {
-  font-family: domine;
+
+.container-two h2 {
+  font-family: 'Domine', serif;
   font-size: 2em;
   text-decoration: underline;
-  padding-left: 30px;
-  padding-top: 27px;
   font-weight: bold;
-}
-p {
-  font-family: domine;
-  padding-left: 30px;
-  font-size: 1.75em;
+  margin-top: 2rem;
 }
 
-.response {
-  color: blue;
-}
-.habits-title {
-  text-decoration: underline;
-  font-style: italic;
+.container-two p {
+  font-family: 'Domine', serif;
+  font-size: 1.25em;
+  line-height: 1.6;
+  margin-bottom: 1rem;
 }
 
-li {
-  font-size: 1.5em;
-  padding: 30px;
-  font-family: domine;
-}
-.blogs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  background-color: #ffe6a9;
-}
-.blog-links {
+.project {
+  background-color: #fff8dc;
+  border-left: 5px solid #b88342;
   border-radius: 10px;
-  background-color: #d7d3bf;
-  width: 300px;
-  padding: 20px;
-  text-align: center;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-table tr td,
-table tr th {
-  border: 1px solid black;
-  margin: 0;
-  padding: 6px 13px;
-  text-align: left;
-}
-td,
-th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-.container-three {
-  background-color: #b1c29e;
-  padding-top: 2px;
-  width: 100%;
-  height: 500px;
-}
-h3 {
-  font-family: recoleta;
-  font-size: 2em;
-  padding-left: 30px;
+.project h3 {
+  font-family: 'Recoleta', serif;
+  font-size: 1.5em;
+  margin-top: 0;
   text-decoration: underline;
+}
+
+.project a {
+  color: #007acc;
   font-weight: bold;
-}
-.seal-showcase {
-  display: flex;
-  justify-content: space-between;
+  text-decoration: none;
 }
 
-.seal-two img {
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
-  padding-left: 10px;
-  padding-top: 15px;
-  object-fit: cover;
+.project a:hover {
+  text-decoration: underline;
 }
 
-.seal-three img {
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
-  padding-left: 10px;
-  padding-top: 15px;
-  object-fit: cover;
-}
-.seal-four img {
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
-  padding-left: 10px;
-  padding-top: 15px;
-  object-fit: cover;
-  padding-right: 10px;
-}
-@media only screen and (min-width: 768px) {
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container-one {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #header-links {
+    text-align: center;
+    padding-top: 0.5rem;
+  }
+
   #header-links a {
-    flex-wrap: wrap;
+    display: inline-block;
+    margin: 0.5rem;
+  }
+
+  .project {
+    padding: 1rem;
   }
 }
